@@ -3,19 +3,19 @@ import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
 
 const ServiceList = [
     {
-        icon: <FiCast />,
-        title: 'Business Stratagy',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <FiLayers />,
+        title: 'Thiết kế Website',
+        description: 'Website đã được tối ưu về UI/UX giúp người dùng trải nghiệm tốt nhất. Các giao diện đa dạng, phù hợp với nhiều ngành nghề.'
     },
     {
-        icon: <FiLayers />,
-        title: 'Website Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <FiCast />,
+        title: 'Ứng dụng web',
+        description: 'Ứng dụng web (Web application) là chương trình máy tính vận hành trên trình duyệt web thông qua mạng Internet'
     },
     {
         icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'SEO & Marketing Online',
+        description: 'Dịch vụ SEO trên google và marketing trên các nền tảng mạng xã hội như Facebook, Tiktok...'
     },
     { 
         icon: <FiMonitor />,
