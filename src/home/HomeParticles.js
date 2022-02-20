@@ -19,9 +19,9 @@ const SlideList = [
     {
         textPosition: 'text-center',
         category: '',
-        title: 'Creative One Page',
-        description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
-        buttonText: 'Contact Us',
+        title: 'Thiết kế website',
+        description: 'Thiết kế website theo công nghệ mới, chuyên nghiệp, giá rẻ, chuẩn SEO và tương thích Mobile.',
+        buttonText: 'Liên hệ chúng tôi',
         buttonLink: '/contact'
     }
 ]
@@ -118,14 +118,14 @@ class HomeParticles extends Component{
                         <div className="header-right">
                             <nav className="mainmenunav d-lg-block">
                                 <Scrollspy className="mainmenu" items={['home','service', 'about', 'portfolio','team','testimonial','blog', 'contact']} currentClassName="is-current" offset={-200}>
-                                    <li><a href="#home">Home</a></li>
-                                    <li><a href="#service">Service</a></li>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#portfolio">Portfolio</a></li>
+                                    <li><a href="#home">Trang chủ</a></li>
+                                    <li><a href="#service">Dịch vụ</a></li>
+                                    <li><a href="#about">Về chúng tôi</a></li>
+                                    <li><a href="#portfolio">Các dự án</a></li>
                                     <li><a href="#team">Team</a></li>
-                                    <li><a href="#testimonial">Testimonial</a></li>
+                                    <li><a href="#testimonial">Ý kiến khách hàng</a></li>
                                     <li><a href="#blog">Blog</a></li>
-                                    <li><a href="#contact">Contact</a></li>
+                                    <li><a href="#contact">Liên hệ</a></li>
                                 </Scrollspy>
                             </nav>
                             <div className="header-btn">
@@ -198,8 +198,8 @@ class HomeParticles extends Component{
                         <div className="row">
                             <div className="col-lg-6 col-12">
                                 <div className="section-title text-left mb--30">
-                                    <h2>Our Services</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <h2>Dịch vụ của chúng tôi</h2>
+                                    <p>Với nhiều năm kinh nghiệm trong dịch vụ thiết kế website và ứng dụng web, chúng tôi đem đến cho khách hàng những dịch vụ dưới đây.</p>
                                 </div>
                             </div>
                         </div>
