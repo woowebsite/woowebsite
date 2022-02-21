@@ -124,15 +124,10 @@ class HomeParticles extends Component{
                                     <li><a href="#portfolio">Các dự án</a></li>
                                     <li><a href="#team">Team</a></li>
                                     <li><a href="#testimonial">Ý kiến khách hàng</a></li>
-                                    <li><a href="#blog">Blog</a></li>
+                                    <li><a href="#blog">Tin tức</a></li>
                                     <li><a href="#contact">Liên hệ</a></li>
                                 </Scrollspy>
                             </nav>
-                            <div className="header-btn">
-                                <a className="rn-btn" href="https://themeforest.net/checkout/from_item/25457315?license=regular">
-                                    <span>buy now</span>
-                                </a>
-                            </div>
                             {/* Start Humberger Menu  */}
                             <div className="humberger-menu d-block d-lg-none pl--20">
                                 <span onClick={this.menuTrigger} className="menutrigger text-white"><FiMenu /></span>
@@ -219,26 +214,26 @@ class HomeParticles extends Component{
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-3.jpg" alt="About Images"/>
+                                        <img className="w-100" src="/assets/images/about/about-10.jpg" alt="About Images"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
                                     <div className="about-inner inner">
                                         <div className="section-title">
-                                            <h2 className="title">About Us</h2>
-                                            <p className="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#alteration">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,</p>
+                                            <h2 className="title">Về chúng tôi</h2>
+                                            <p className="description">Được thành lập từ năm 2017 Sau 5 năm nỗ lực không ngừng, hàng nghìn khách hàng đã nhớ đến cái tên Woowebsite - Công ty hàng đầu trong lĩnh vực thiết kế web và ứng dụng web. Với một đội ngũ chuyên gia có tư duy tốt, kỹ thuật chuyên môn cao, say mê công việc. Sự chuyên sâu tạo nên sức mạnh cho Woowebsite trong việc ngày càng nâng cao chất lượng dịch vụ cho khách hàng và đối tác. </p>
                                         </div>
                                         <div className="row mt--30">
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                    <h3 className="title">Đội ngũ chuyên nghiệp</h3>
+                                                    <p>Đội ngũ nhân sự chuyên nghiệp với nhiều năm kinh nghiệm trong lĩnh vực web và phát triển phần mềm.</p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                    <h3 className="title">Công nghệ mới nhất</h3>
+                                                    <p>Website được triển khai trên công nghệ mới nhất hiện nay, đảm bảo tốc độ, bảo mật và tương thích tốt trên mọi thiết bị.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -257,7 +252,7 @@ class HomeParticles extends Component{
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
-                                        <h2 className="title">Our Portfolio</h2>
+                                        <h2 className="title">Dự án điển hình</h2>
                                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                                     </div>
                                 </div>
@@ -288,53 +283,13 @@ class HomeParticles extends Component{
                                 </div>
                             </div>
 
+                            <div className="view-more-btn mt--60 text-center">
+                                <a className="rn-button-style--2 btn-solid" href="/demo"><span>Xem thêm</span></a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 {/* End Portfolio Area */}
-
-
-                {/* Start CounterUp Area */}
-                <div className="rn-counterup-area pt--140 p pb--110 bg_color--5">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title text-center">
-                                    <h3 className="fontWeight500">Our Fun Facts</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <CounterOne />
-                    </div>
-                </div>
-                {/* End CounterUp Area */}
-
-                {/* Start Team Area  */}
-                <div className="rn-team-area ptb--120 bg_color--1" id="team">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6">
-                                <div className="section-title service-style--3 text-left mb--25 mb_sm--0">
-                                    <h2 className="title">Skilled Team</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <Team column="col-lg-4 col-md-6 col-sm-6 col-12" />
-                        </div>
-                    </div>
-                </div>
-                {/* End Team Area  */}
-
-                {/* Start Testimonial Area */}
-                <div className="rn-testimonial-area bg_color--5 ptb--120" id="testimonial">
-                    <div className="container">
-                        <Testimonial />
-                    </div>
-                </div>
-                {/* End Testimonial Area */}
-                
 
                 {/* Start Blog Area */}
                 <div className="rn-blog-area pt--120 pb--140 bg_color--1" id="blog">
@@ -342,8 +297,8 @@ class HomeParticles extends Component{
                         <div className="row align-items-end">
                             <div className="col-lg-6">
                                 <div className="section-title text-left">
-                                    <h2>Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <h2>Tin tức</h2>
+                                    <p>Chia sẻ của chúng tôi về công nghệ, dịch vụ kế toán, hỗ trợ doanh nghiệp...</p>
                                 </div>
                             </div>
                         </div>

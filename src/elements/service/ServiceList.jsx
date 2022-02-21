@@ -17,21 +17,6 @@ const ServiceList = [
         title: 'SEO & Marketing Online',
         description: 'Dịch vụ SEO trên google và marketing trên các nền tảng mạng xã hội như Facebook, Tiktok...'
     },
-    { 
-        icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    },
-    {
-        icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    },
-    { 
-        icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    }
 ]
 
 
