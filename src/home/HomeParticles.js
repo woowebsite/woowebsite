@@ -102,7 +102,7 @@ class HomeParticles extends Component{
         
         return(
             <Fragment>
-                <Helmet pageTitle="Home Particles" />
+                <Helmet pageTitle="WooWebsite" />
 
                 {/* Start Header Area  */}
                 <header className="header-area formobile-menu header--fixed default-color">
@@ -250,10 +250,10 @@ class HomeParticles extends Component{
                     <div className="rn-slick-dot">
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-6">
+                                <div className="col-lg-8">
                                     <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
                                         <h2 className="title">Dự án điển hình</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <p>WooWebsite luôn có gắng nỗ lực để tạo ra những website chất lượng và hài lòng khách hàng. Hãy tham khảo một vài tác phẩm website của chúng tôi dưới đây nhé! :)</p>
                                     </div>
                                 </div>
                             </div>

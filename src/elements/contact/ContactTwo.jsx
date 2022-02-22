@@ -17,7 +17,7 @@ class ContactTwo extends Component{
                     <div className="row row--35 align-items-start">
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
-                                <h2 className="title">Liên hệ.</h2>
+                                <h2 className="title">Liên hệ</h2>
                                 <p className="description">Vui lòng để lại thông tin liên hệ, chúng tôi sẽ liên lạc với bạn sớm nhất có thể.</p>
                             </div>
                             <div className="form-wrapper">
@@ -29,7 +29,7 @@ class ContactTwo extends Component{
                                             id="item01"
                                             value={this.state.rnName}
                                             onChange={(e)=>{this.setState({rnName: e.target.value});}}
-                                            placeholder="Your Name *"
+                                            placeholder="Tên của bạn *"
                                         />
                                     </label>
 
@@ -40,7 +40,7 @@ class ContactTwo extends Component{
                                             id="item02"
                                             value={this.state.rnEmail}
                                             onChange={(e)=>{this.setState({rnEmail: e.target.value});}}
-                                            placeholder="Your email *"
+                                            placeholder="Email của bạn *"
                                         />
                                     </label>
 
@@ -51,7 +51,7 @@ class ContactTwo extends Component{
                                             id="item03"
                                             value={this.state.rnSubject}
                                             onChange={(e)=>{this.setState({rnSubject: e.target.value});}}
-                                            placeholder="Write a Subject"
+                                            placeholder="Tiêu đề"
                                         />
                                     </label>
                                     <label htmlFor="item04">
@@ -61,10 +61,10 @@ class ContactTwo extends Component{
                                             name="message"
                                             value={this.state.rnMessage}
                                             onChange={(e)=>{this.setState({rnMessage: e.target.value});}}
-                                            placeholder="Your Message"
+                                            placeholder="Lời nhắn của bạn dành cho chúng tôi"
                                         />
                                     </label>
-                                    <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit</button>
+                                    <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Gửi</button>
                                 </form>
                             </div>
                         </div>
