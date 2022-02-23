@@ -20,9 +20,9 @@ const SlideList = [
         textPosition: 'text-center',
         category: '',
         title: 'Thiết kế website',
-        description: 'Thiết kế website theo công nghệ mới, chuyên nghiệp, giá rẻ, chuẩn SEO và tương thích Mobile.',
-        buttonText: 'Liên hệ chúng tôi',
-        buttonLink: '/contact'
+        description: 'Thiết kế website theo công nghệ mới nhất, chuyên nghiệp, giá rẻ, chuẩn SEO và tương thích Mobile.',
+        buttonText: 'Xem Demo',
+        buttonLink: '/demo'
     }
 ]
 
@@ -191,10 +191,10 @@ class HomeParticles extends Component{
                 <div className="service-area creative-service-wrapper ptb--120 bg_color--1" id="service">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-6 col-12">
+                            <div className="col-lg-8 col-12">
                                 <div className="section-title text-left mb--30">
                                     <h2>Dịch vụ của chúng tôi</h2>
-                                    <p>Với nhiều năm kinh nghiệm trong dịch vụ thiết kế website và ứng dụng web, chúng tôi đem đến cho khách hàng những dịch vụ dưới đây.</p>
+                                    <p>Với nhiều năm kinh nghiệm trong dịch vụ thiết kế website và ứng dụng web. Sản phẩm được phát triển dựa trên công nghệ <b> JAM Stack </b>sử dụng <b> React</b> và <b> Nodejs</b>, đem đến cho khách hàng trải nghiệm nhanh nhất và hoàn toàn bảo mật.</p>
                                 </div>
                             </div>
                         </div>
@@ -284,7 +284,7 @@ class HomeParticles extends Component{
                             </div>
 
                             <div className="view-more-btn mt--60 text-center">
-                                <a className="rn-button-style--2 btn-solid" href="/demo"><span>Xem thêm</span></a>
+                                <a className="rn-button-style--2 btn-solid" href="/demo"><span>Xem Demo</span></a>
                             </div>
                         </div>
                     </div>
@@ -295,10 +295,10 @@ class HomeParticles extends Component{
                 <div className="rn-blog-area pt--120 pb--140 bg_color--1" id="blog">
                     <div className="container">
                         <div className="row align-items-end">
-                            <div className="col-lg-6">
+                            <div className="col-lg-8">
                                 <div className="section-title text-left">
                                     <h2>Tin tức</h2>
-                                    <p>Chia sẻ của chúng tôi về công nghệ, dịch vụ kế toán, hỗ trợ doanh nghiệp...</p>
+                                    <p>Chia sẻ kiến thức về thiết kế website, công nghệ phần mềm, SEO, Marketing online...</p>
                                 </div>
                             </div>
                         </div>
