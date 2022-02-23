@@ -29,44 +29,36 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 const featureList = [
     {
         icon: <FaReact/>,
-        title: 'Latest React 16.8+',
-        subtitle: 'We used latest react vertion ^16.8.6.Its a awesome design made by react.'
+        title: 'Công nghệ mới nhất',
+        subtitle: 'Sản phẩm được phát triển dựa trên công nghệ JAM Stack sử dụng React và Nodejs phiên bản mới nhất.'
     },
     {
         icon: <FiSmartphone/>,
-        title: 'Perfect Responsive',
-        subtitle: 'Our Template is full Perfect for all device. You can visit our template all device easily.'
+        title: 'Tương thích mọi thiết bị',
+        subtitle: 'Website được hiển thị hoàn hoả trên mọi thiết bị mobile, tablet, laptop.'
     },
     {
         icon: <FiCode/>,
-        title: 'Well Documented Codes',
-        subtitle: 'The Trydo code is awesome well documented code. And Its customization is very easily'
+        title: 'Hướng dẫn chi tiết',
+        subtitle: 'Sản phẩm được cung cấp tài liệu hướng dẫn đi kèm rất chi tiết và chuyên nghiệp.'
     },
-    {
-        icon: <FaSass/>,
-        title: 'Sass Available',
-        subtitle: 'The tamplate has Sass available for css. You can Change css by sass'
-    },
+    
     {
         icon: <FiDownload/>,
-        title: 'Fast Loading Speed',
-        subtitle: 'Trydo is faster loading speed.Trydo create your theme so much faster '
+        title: 'Tốc độ cực nhanh',
+        subtitle: 'Website được phát triển dựa trên công nghệ JAM Stack, nên tốc độ tải cực nhanh.'
     },
     {
         icon: <FiCommand/>,
-        title: 'Modern Design',
-        subtitle: 'Trydo is a modern creatuve design for Creative Agency , Personal Portfolio etc....'
+        title: 'Thiết kế hiện đại',
+        subtitle: 'WooWebsite có nhiều thiết kế theo phong cách hiện đại như Creative Agency , Personal Portfolio'
     },
     {
         icon: <FiHeadphones/>,
-        title: '24 Support System',
-        subtitle: 'We are provide 24 hours support for all clients.You can purchase without hesitation.'
+        title: 'Hỗ trợ 24/7',
+        subtitle: 'Hãy liên hệ ngay với chúng tôi bất cứ khi nào bạn cần hỗ trợ.'
     },
-    {
-        icon: <FiBold/>,
-        title: 'Bootstrap Comfortable',
-        subtitle: 'Bootstrap comfortable is available in trydo. So layout changes is so much easily'
-    }
+   
 ]
 
 const singleDemo = [
@@ -74,49 +66,49 @@ const singleDemo = [
         url: 'main-demo',
         imageUrl: 'demo-home.png',
         title: 'Main Demo',
-        description: 'Our Template is perfect for creative agency.All agencies use this template for all purpose.',
+        description: 'Mẫu này có thể được áp dụng cho doanh nghiệp Agency với nhiều mục đích.',
         label: ''
     },
     {
         url: 'dark-main-demo',
         imageUrl: 'dark-main-demo.png',
         title: 'Main Demo — Dark Version',
-        description: 'Our Template is perfect for creative agency.All agencies use this template for all purpose.',
+        description: 'Mẫu này có thể được áp dụng cho doanh nghiệp Agency với nhiều mục đích.',
         label: 'New'
     },
     {
         url: 'creative-agency',
         imageUrl: 'creative-agency.png',
         title: 'Creative Agency',
-        description: 'Its a modern design with all realted features for creative agencies company.',
+        description: 'Đây là mẫu Agency hiện đại, phù hợp với những công ty Agency trong lĩnh vực sáng tạo, năng động.',
         label: ''
     },
     {
         url: 'corporate-business',
         imageUrl: 'corporate-business.png',
         title: 'Corporate Business',
-        description: 'Corporate Business is build for new or any startup business company. It has available all section for corporate business agency company and others business purpose.',
+        description: 'Corporate Business được xây dựng phù hợp cho những công ty startup với nhiều mục đích đa dạng.',
         label: 'Hot'
     },
     {
         url: 'interior-landing',
         imageUrl: 'interior-design.png',
         title: 'Interior Design',
-        description: 'A interior design comes for new interior agency company. Our can hire your clint by using this template. It has landing page feature available.',
+        description: 'Interior design được sử dụng cho những công ty làm về thiết kế.',
         label: 'New'
     },
     {
         url: 'dark-portfolio-landing',
         imageUrl: 'dark-personal-portfolio-landing.png',
         title: 'Personal Portfolio 02 — One Page',
-        description: 'It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.',
+        description: 'Đây là một template dành cho cá nhân, sử dụng để giới thiệu bản thân, nghề nghiệp và chuyên môn cụ thể.',
         label: 'Hot'
     },
     {
         url: 'portfolio-landing',
         imageUrl: 'personal-portfolio-landing.png',
         title: 'Personal Portfolio — One Page',
-        description: 'It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.',
+        description: 'Đây là một template dành cho cá nhân, sử dụng để giới thiệu bản thân, nghề nghiệp và chuyên môn cụ thể.',
         label: ''
     },
 
@@ -124,7 +116,7 @@ const singleDemo = [
         url: 'creative-landing',
         imageUrl: 'creative-landing.png',
         title: 'Creative Agency 02 — One Page',
-        description: 'Added creative agency landing page.When you need creative agency landing page you can be use it for your creative agency, Digital agency landing page page.',
+        description: 'Mẫu template được sử dụng cho những doanh nghiệp liên quan tới công nghệ, kỹ thuật số. Đây là một mẫu được thiết kế theo dạng Landing page.',
         label: ''
     },
 
@@ -132,7 +124,7 @@ const singleDemo = [
         url: 'creative-portfolio',
         imageUrl: 'creative-portfolio.png',
         title: 'Creative Portfolio',
-        description: 'Creative Portfolio is a awesome portfolio website demo. By using this you can be build a website for your portfolio',
+        description: 'Creative Portfolio được sử dụng cho những porfolio năng động, sáng tạo.',
         label: ''
     },
 
@@ -140,21 +132,21 @@ const singleDemo = [
         url: 'designer-portfolio',
         imageUrl: 'designer-portfolio.png',
         title: 'Designer Portfolio',
-        description: 'Designer POrtfolio is a portfolio website demo for all personal portfolio website. A designer present their works by the designer portfolio home demo..',
+        description: 'Designer Portfolio đây là một template chung cho những porfolio cá nhân sử dụng cho nhiều mục đích đa dạng.',
         label: 'Hot'
     },
     {
         url: 'home-particles',
         imageUrl: 'homeparticles.png',
         title: 'Home Particle — Landing Page',
-        description: 'Home particle has most feature is particles animation.It can be used for your creative agency, Business agency, Digital agency and so on, And it has Landing page added.',
+        description: 'Home particle là một template theo dạng Landing page được sử dụng cho nhiều mục đích Agency, Business.',
         label: ''
     },
     {
         url: 'personal-portfolio',
         imageUrl: 'personal-portfolio.png',
         title: 'Personal Portfolio',
-        description: 'Its a personal portfolio tamplate thats can be used your Personal useses,  Freelancer, Designer, and Developer etc.',
+        description: 'Personal portfolio là một porfolio được dùng cho cá nhân phù hợp với những ngành nghề Freelancer, Designer, và Developer.',
         label: ''
     },
 
@@ -162,7 +154,7 @@ const singleDemo = [
         url: 'portfolio-home',
         imageUrl: 'portfolio-home.png',
         title: 'Minimal Portfolio',
-        description: 'Its a minimal portfolio template. You can be showing your portfolio perfectly by using this template.',
+        description: 'Đây là mẫu Portfolio đơn giản nhất, phù hợp với những cá nhân ưa chuộng phong cách đơn giản.',
         label: ''
     },
 
@@ -170,43 +162,43 @@ const singleDemo = [
         url: 'digital-agency',
         imageUrl: 'digital-agency.png',
         title: 'Digital Agency',
-        description: 'A Digital Agency template is a nice slider animation, faster loading and all features available for agencies.',
+        description: 'Digital Agency là một mẫu gồm một slider đẹp mặt, nhanh và phù hợp với nhiều Agency.',
         label: ''
     },
     {
         url: 'business',
         imageUrl: 'business.png',
         title: 'Business',
-        description: 'It has available all kinds of features for a Business corporate website.You can be use it for your Business website.',
+        description: 'Đây là mẫu phù hợp với nhiều doanh nghiệp.',
         label: ''
     },
     {
         url: 'startup',
         imageUrl: 'startup.png',
         title: 'Startup',
-        description: 'A modern and nice design template that can be all startup agencies for all kinds of startup purpose.',
+        description: 'Đây là mẫu giao diện hiện đại với thiết kế sáng tạo, phù hợp với những công ty startup.',
         label: ''
     },
     {
         url: 'paralax',
         imageUrl: 'paralax.png',
         title: 'Paralax Home',
-        description: 'Its a nice and awesome paralax background image design.You can be use it for Business, Corporate, Degital Agency and other so on.',
+        description: 'Đây là một thiết kế theo phong các Paralax background. Sử dụng phù hợp cho những doanh nghiệp Business, Corporate, Degital Agency hoặc nhiều mục đích khác.',
         label: ''
     },
     {
         url: 'studio-agency',
         imageUrl: 'studio-agency.png',
         title: 'Studio Agency',
-        description: 'It has been used background video and vedio popup.You can use it for all kinds of agencies studio.',
+        description: 'Mẫu này sử dụng background video và video popup. Sử dụng phù hợp với những studio, media',
         label: ''
     
     },
     {
         url: '#comingsoon',
         imageUrl: 'coming-soon.png',
-        title: 'Coming Soon',
-        description: 'More Feature are Coming Soon',
+        title: 'Còn nữa...',
+        description: 'Chúng tôi sẽ luôn phát triển và cập nhật những mẫu giao diện mới',
         label: ''
     }
 ]
@@ -216,77 +208,77 @@ const agencyDemo = [
         url: 'main-demo',
         imageUrl: 'demo-home.png',
         title: 'Main Demo',
-        description: 'Our Template is perfect for creative agency.All agencies use this template for all purpose.',
+        description: 'Mẫu này có thể được áp dụng cho doanh nghiệp Agency với nhiều mục đích.',
         label: ''
     },
     {
         url: 'creative-agency',
         imageUrl: 'creative-agency.png',
         title: 'Creative Agency',
-        description: 'Its a modern design with all realted features for creative agencies company.',
+        description: 'Đây là mẫu Agency hiện đại, phù hợp với những công ty Agency trong lĩnh vực sáng tạo, năng động.',
         label: ''
     },
     {
         url: 'corporate-business',
         imageUrl: 'corporate-business.png',
         title: 'Corporate Business',
-        description: 'Corporate Business is build for new or any startup business company. It has available all section for corporate business agency company and others business purpose.',
+        description: 'Corporate Business được xây dựng phù hợp cho những công ty startup với nhiều mục đích đa dạng.',
         label: 'Hot'
     },
     {
         url: 'home-particles',
         imageUrl: 'homeparticles.png',
         title: 'Home Particle — Landing Page',
-        description: 'Home particle has most feature is particles animation.It can be used for your creative agency, Business agency, Digital agency and so on, And it has Landing page added.',
+        description: 'Home particle là một template theo dạng Landing page được sử dụng cho nhiều mục đích Agency, Business.',
         label: ''
     },
     {
         url: 'digital-agency',
         imageUrl: 'digital-agency.png',
         title: 'Digital Agency',
-        description: 'A Digital Agency template is a nice slider animation, faster loading and all features available for agencies.',
+        description: 'Digital Agency là một mẫu gồm một slider đẹp mặt, nhanh và phù hợp với nhiều Agency.',
         label: ''
     },
     {
         url: 'creative-portfolio',
         imageUrl: 'creative-portfolio.png',
         title: 'Creative Portfolio',
-        description: 'Creative Portfolio is a awesome portfolio website demo. By using this you can be display your portfolio and your companies project',
+        description: 'Creative Portfolio sử dụng cho những porfolio năng động, sáng tạo.',
         label: 'New'
     },
     {
         url: 'studio-agency',
         imageUrl: 'studio-agency.png',
         title: 'Studio Agency',
-        description: 'It has been used background video and vedio popup.You can use it for all kinds of agencies studio.',
+        description: 'Mẫu này sử dụng background video và video popup. Sử dụng phù hợp với những studio, media',
         label: ''
     },
     {
         url: 'dark-main-demo',
         imageUrl: 'dark-main-demo.png',
         title: 'Main Demo — Dark Version',
-        description: 'Our Template is perfect for creative agency.All agencies use this template for all purpose.',
+        description: 'Mẫu này có thể được áp dụng cho doanh nghiệp Agency với nhiều mục đích.',
         label: 'New'
     },
     {
         url: 'creative-landing',
         imageUrl: 'creative-landing.png',
         title: 'Creative Agency 02 — One Page',
-        description: 'Added creative agency landing page.When you need creative agency landing page you can be use it for your creative agency, Digital agency landing page page.',
+        description: 'Mẫu template được sử dụng cho những doanh nghiệp liên quan tới công nghệ, kỹ thuật số. Đây là một mẫu được thiết kế theo dạng Landing page.',
         label: ''
     },
     {
         url: 'interior-landing',
         imageUrl: 'interior-design.png',
         title: 'Interior Design',
-        description: 'A interior design comes for new interior agency company. Our can hire your clint by using this template. It has landing page feature available.',
+        description: 'Interior design được sử dụng cho những công ty làm về thiết kế.',
         label: 'New'
     },
     {
         url: 'paralax',
         imageUrl: 'paralax.png',
         title: 'Paralax Home',
-        description: 'Its a nice and awesome paralax background image design.You can be use it for Business, Corporate, Degital Agency and other so on.',
+        description: 'Đây là một thiết kế theo phong các Paralax background. Sử dụng phù hợp cho những doanh nghiệp Business, Corporate, Degital Agency hoặc nhiều mục đích khác.',
         label: ''
     },
 ]
@@ -296,49 +288,49 @@ const busenessDemo = [
         url: 'business',
         imageUrl: 'business.png',
         title: 'Business',
-        description: 'It has available all kinds of features for a Business corporate website.You can be use it for your Business website.',
+        description: 'Đây là mẫu phù hợp với nhiều doanh nghiệp.',
         label: ''
     },
     {
         url: 'startup',
         imageUrl: 'startup.png',
         title: 'Startup',
-        description: 'A modern and nice design template that can be all startup agencies for all kinds of startup purpose.',
+        description: 'Đây là mẫu giao diện hiện đại với thiết kế sáng tạo, phù hợp với những công ty startup.',
         label: ''
     },
     {
         url: 'corporate-business',
         imageUrl: 'corporate-business.png',
         title: 'Corporate Business',
-        description: 'Corporate Business is build for new or any startup business company. It has available all section for corporate business agency company and others business purpose.',
+        description: 'Corporate Business được xây dựng phù hợp cho những công ty startup với nhiều mục đích đa dạng.',
         label: 'Hot'
     },
     {
         url: 'creative-portfolio',
         imageUrl: 'creative-portfolio.png',
         title: 'Creative Portfolio',
-        description: 'Creative Portfolio is a awesome portfolio website demo. By using this you can be display your portfolio and your companies project',
+        description: 'Creative Portfolio sử dụng cho những porfolio năng động, sáng tạo.',
         label: 'New'
     },
     {
         url: 'home-particles',
         imageUrl: 'homeparticles.png',
         title: 'Home Particle — Landing Page',
-        description: 'Home particle has most feature is particles animation.It can be used for your creative agency, Business agency, Digital agency and so on, And it has Landing page added.',
+        description: 'Home particle là một template theo dạng Landing page được sử dụng cho nhiều mục đích Agency, Business.',
         label: ''
     },
     {
         url: 'studio-agency',
         imageUrl: 'studio-agency.png',
         title: 'Studio Agency',
-        description: 'It has been used background video and vedio popup.You can use it for all kinds of agencies studio.',
+        description: 'Mẫu này sử dụng background video và video popup. Sử dụng phù hợp với những studio, media',
         label: ''
     },
     {
         url: 'paralax',
         imageUrl: 'paralax.png',
         title: 'Paralax Home',
-        description: 'Its a nice and awesome paralax background image design.You can be use it for Business, Corporate, Degital Agency and other so on.',
+        description: 'Đây là một thiết kế theo phong các Paralax background. Sử dụng phù hợp cho những doanh nghiệp Business, Corporate, Degital Agency hoặc nhiều mục đích khác.',
         label: ''
     },
 ]
@@ -348,21 +340,21 @@ const portfolioList = [
         url: 'personal-portfolio',
         imageUrl: 'personal-portfolio.png',
         title: 'Personal Portfolio',
-        description: 'Its a personal portfolio tamplate thats can be used your Personal useses,  Freelancer, Designer, and Developer etc.',
+        description: 'Personal portfolio là một porfolio được dùng cho cá nhân phù hợp với những ngành nghề Freelancer, Designer, và Developer.',
         label: ''
     },
     {
         url: 'dark-portfolio-landing',
         imageUrl: 'dark-personal-portfolio-landing.png',
         title: 'Personal Portfolio 02 — One Page',
-        description: 'It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.',
+        description: 'Đây là một template dành cho cá nhân, sử dụng để giới thiệu bản thân, nghề nghiệp và chuyên môn cụ thể.',
         label: 'Hot'
     },
     {
         url: 'designer-portfolio',
         imageUrl: 'designer-portfolio.png',
         title: 'Designer Portfolio',
-        description: 'Designer Portfolio is a portfolio website demo for all personal portfolio website. A designer present their works by the designer portfolio home demo..',
+        description: 'Designer Portfolio đây là một template chung cho những porfolio cá nhân sử dụng cho nhiều mục đích đa dạng.',
         label: 'Hot'
     },
 
@@ -370,21 +362,21 @@ const portfolioList = [
         url: 'creative-portfolio',
         imageUrl: 'creative-portfolio.png',
         title: 'Creative Portfolio',
-        description: 'Creative Portfolio is a awesome portfolio website demo. By using this you can be display your portfolio and your companies project',
+        description: 'Creative Portfolio sử dụng cho những porfolio năng động, sáng tạo.',
         label: 'New'
     },
     {
         url: 'portfolio-home',
         imageUrl: 'portfolio-home.png',
         title: 'Minimal Portfolio',
-        description: 'Its a minimal portfolio template. You can be showing your portfolio perfectly by using this template.',
+        description: 'Đây là mẫu Portfolio đơn giản nhất, phù hợp với những cá nhân ưa chuộng phong cách đơn giản.',
         label: ''
     },
     {
         url: 'portfolio-landing',
         imageUrl: 'personal-portfolio-landing.png',
         title: 'Personal Portfolio — One Page',
-        description: 'It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.',
+        description: 'Đây là một template dành cho cá nhân, sử dụng để giới thiệu bản thân, nghề nghiệp và chuyên môn cụ thể.',
         label: 'New'
     },
     
@@ -397,35 +389,35 @@ const landingPage = [
         url: 'dark-portfolio-landing',
         imageUrl: 'dark-personal-portfolio-landing.png',
         title: 'Personal Portfolio 02 — One Page',
-        description: 'It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.',
+        description: 'Đây là một template dành cho cá nhân, sử dụng để giới thiệu bản thân, nghề nghiệp và chuyên môn cụ thể.',
         label: 'Hot'
     },
     {
         url: 'portfolio-landing',
         imageUrl: 'personal-portfolio-landing.png',
         title: 'Personal Portfolio — One Page',
-        description: 'It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.',
+        description: 'Đây là một template dành cho cá nhân, sử dụng để giới thiệu bản thân, nghề nghiệp và chuyên môn cụ thể.',
         label: 'New'
     },
     {
         url: 'creative-landing',
         imageUrl: 'creative-landing.png',
         title: 'Creative Agency 02 — One Page',
-        description: 'Added creative agency landing page.When you need creative agency landing page you can be use it for your creative agency, Digital agency landing page page.',
+        description: 'Mẫu template được sử dụng cho những doanh nghiệp liên quan tới công nghệ, kỹ thuật số. Đây là một mẫu được thiết kế theo dạng Landing page.',
         label: 'New'
     },
     {
         url: 'interior-landing',
         imageUrl: 'interior-design.png',
         title: 'Interior Design',
-        description: 'A interior design comes for new interior agency company. Our can hire your clint by using this template. It has landing page feature available.',
+        description: 'Interior design được sử dụng cho những công ty làm về thiết kế.',
         label: 'New'
     },
     {
         url: 'home-particles',
         imageUrl: 'homeparticles.png',
         title: 'Home Particle — Landing Page',
-        description: 'Home particle has most feature is particles animation.It can be used for your creative agency, Business agency, Digital agency and so on, And it has Landing page added.',
+        description: 'Home particle là một template theo dạng Landing page được sử dụng cho nhiều mục đích Agency, Business.',
         label: ''
     },
 ]
@@ -435,117 +427,67 @@ const newDemoList = [
         url: 'dark-portfolio-landing',
         imageUrl: 'dark-personal-portfolio-landing.png',
         title: 'Personal Portfolio 02 — One Page',
-        description: 'It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.',
+        description: 'Đây là một template dành cho cá nhân, sử dụng để giới thiệu bản thân, nghề nghiệp và chuyên môn cụ thể.',
         label: 'Hot'
     },
     {
         url: 'dark-main-demo',
         imageUrl: 'dark-main-demo.png',
         title: 'Main Demo — Dark Version',
-        description: 'Our Template is perfect for creative agency.All agencies use this template for all purpose.',
+        description: 'Mẫu này có thể được áp dụng cho doanh nghiệp Agency với nhiều mục đích.',
         label: 'New'
     },
     {
         url: 'corporate-business',
         imageUrl: 'corporate-business.png',
         title: 'Corporate Business',
-        description: 'Corporate Business is build for new or any startup business company. It has available all section for corporate business agency company and others business purpose.',
+        description: 'Corporate Business được xây dựng phù hợp cho những công ty startup với nhiều mục đích đa dạng.',
         label: 'Hot'
     },
     {
         url: 'interior-landing',
         imageUrl: 'interior-design.png',
         title: 'Interior Design',
-        description: 'A interior design comes for new interior agency company. Our can hire your clint by using this template. It has landing page feature available.',
+        description: 'Interior design được sử dụng cho những công ty làm về thiết kế.',
         label: 'New'
     },
     {
         url: 'designer-portfolio',
         imageUrl: 'designer-portfolio.png',
         title: 'Designer Portfolio',
-        description: 'Designer POrtfolio is a portfolio website demo for all personal portfolio website. A designer present their works by the designer portfolio home demo..',
+        description: 'Designer Portfolio đây là một template chung cho những porfolio cá nhân sử dụng cho nhiều mục đích đa dạng.',
         label: 'Hot'
     },
     {
         url: 'creative-portfolio',
         imageUrl: 'creative-portfolio.png',
         title: 'Creative Portfolio',
-        description: 'Creative Portfolio is a awesome portfolio website demo. By using this you can be display your ',
+        description: 'Creative Portfolio sử dụng cho những porfolio năng động, sáng tạo.',
         label: 'New'
     },
     {
         url: 'creative-landing',
         imageUrl: 'creative-landing.png',
         title: 'Creative Agency 02 — One Page',
-        description: 'Added creative agency landing page.When you need creative agency landing page you can be use it for your creative agency, Digital agency landing page page.',
+        description: 'Mẫu template được sử dụng cho những doanh nghiệp liên quan tới công nghệ, kỹ thuật số. Đây là một mẫu được thiết kế theo dạng Landing page.',
         label: 'New'
     },
     {
         url: 'portfolio-landing',
         imageUrl: 'personal-portfolio-landing.png',
         title: 'Personal Portfolio — One Page',
-        description: 'It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.',
+        description: 'Đây là một template dành cho cá nhân, sử dụng để giới thiệu bản thân, nghề nghiệp và chuyên môn cụ thể.',
         label: 'New'
     },
     {
         url: 'interior-landing',
         imageUrl: 'interior-design.png',
         title: 'Interior Design',
-        description: 'A interior design comes for new interior agency company. Our can hire your clint by using this template. It has landing page feature available.',
+        description: 'Interior design được sử dụng cho những công ty làm về thiết kế.',
         label: 'New'
     },
 ]
 
-
-
-const innerDemo = [
-    {
-        url: 'service',
-        imageUrl: 'service.png',
-        title: 'Service',
-    },
-    {
-        url: 'service-details',
-        imageUrl: 'service-details.png',
-        title: 'Service Details',
-    },
-    {
-        url: 'about',
-        imageUrl: 'about.png',
-        title: 'About',
-    },
-    {
-        url: 'blog',
-        imageUrl: 'blog-list.png',
-        title: 'Blog List',
-    },
-    {
-        url: 'blog-details',
-        imageUrl: 'blog-details.png',
-        title: 'Blog Details',
-    },
-    {
-        url: 'portfolio',
-        imageUrl: 'portfolio.png',
-        title: 'Portfolio',
-    },
-    {
-        url: 'portfolio-details',
-        imageUrl: 'portfolio-details.png',
-        title: 'Portfolio Details',
-    },
-    {
-        url: 'contact',
-        imageUrl: 'contact.png',
-        title: 'Contact',
-    },
-    {
-        url: '404',
-        imageUrl: '404.png',
-        title: '404 Page',
-    },
-
-]
 
 class Demo extends Component {
     render() {
@@ -564,10 +506,10 @@ class Demo extends Component {
                                                 <img src="/assets/images/logo/logo-all-dark.png" alt="Trydo Images"/>
                                             </a>
                                         </div>
-                                        <p className="title">Welcome to TryDO React Creative Agency, React Portfolio and Corporate Multi Purpose Template Built With React JS. NO jQuery!</p>
+                                        <p className="title">Chào mừng bạn đến với WooWebsite, dưới đây là những mẫu website mà chúng tôi đã thực hiện. Các website được sử dụng theo công nghệ JAM Stack với React và Nodejs. Bạn hãy trải nghiệm và liên hệ ngay với chúng tôi!</p>
                                         <div className="purshase-btn">
-                                            <a href="https://themeforest.net/checkout/from_item/25457315?license=regular" className="rn-button-style--2 btn-solid">BUY Now</a>
-                                            <a href="#demo" className="rn-button-style--2 btn-border rn-btn-dark border-opacity-half">View Demos</a>
+                                            <a href="/#contact" className="rn-button-style--2 btn-solid">Liên hệ ngay</a>
+                                            <a href="#demo" className="rn-button-style--2 btn-border rn-btn-dark border-opacity-half">Xem Demo</a>
                                         </div>
                                     </div>
                                 </div>
@@ -587,9 +529,8 @@ class Demo extends Component {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center pb--30">
-                                        <h2 className="theme-gradient">Home Demo</h2>
-                                        <p>Choose one of styles or cutomize easily your site following your ideas. <br/> More
-                                            demos are coming soon.</p>
+                                        <h2 className="theme-gradient">Giao diện mẫu</h2>
+                                        <p>Vui lòng chọn lựa những mẫu giao diện phù hợp với doanh nghiệp của bạn nhất.</p>
                                     </div>
                                 </div>
                             </div>
@@ -598,12 +539,12 @@ class Demo extends Component {
                                     <div className="col-lg-12">
                                         <div className="tablist-inner">
                                             <TabList className="pv-tab-button text-center">
-                                                <Tab><span>All Demo</span></Tab>
+                                                <Tab><span>Tất cả</span></Tab>
                                                 <Tab><span>Agency</span></Tab>
-                                                <Tab><span>Corporate</span></Tab>
+                                                <Tab><span>Doanh nghiệp</span></Tab>
                                                 <Tab><span>Portfolio</span></Tab>
                                                 <Tab><span>Landing</span></Tab>
-                                                <Tab><span>New</span></Tab>
+                                                <Tab><span>Mới nhất</span></Tab>
                                             </TabList>
                                         </div>
                                     </div>
@@ -717,49 +658,20 @@ class Demo extends Component {
                     </div>
                     {/* End Main Demo Area  */}
 
-                    {/* Start Main Demo  */}
-                    <div className="home-demo-area bg_color--3 ptb--120">
-                        <div className="wrapper plr--120">
-                            <div className="row">
-                                <div className="col-lg-12">
-                                    <div className="section-title text-center pb--30">
-                                        <h2 className="theme-gradient">Inner Pages</h2>
-                                        <p>Choose one of styles or cutomize easily your site following your ideas</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row">
-                                {innerDemo.map((value , index) => (
-                                    // Start Single Demo
-                                    <div key={index} className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                        <div className="single-demo">
-                                            <a target="_blank" rel="noopener noreferrer" href={`/${value.url} `}>
-                                                <img src={`/assets/images/preview/${value.imageUrl}`} alt="Creative Agency Images"/>
-                                                <h3 className="title">{value.title}</h3>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    // End Single Demo
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                    {/* End Main Demo  */}
-
                     {/* Start Feature Area  */}
                     <div className="prv-feature service-area bg_color--4 ptb--120">
                         <div className="wrapper plr--120">
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center pb--30">
-                                        <h2 className="text-white">Awesome Feature</h2>
+                                        <h2 className="text-white">Tính năng nổi bật</h2>
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
                                 {/* Start Single Feature  */}
                                 {featureList.map((value, i) => (
-                                    <div className="col-lg-6 col-xl-3 col-md-6 col-sm-6 col-12" key={i}>
+                                    <div className="col-lg-8 col-xl-4 col-md-8 col-sm-8 col-12" key={i}>
                                         <div className="service service__style--2">
                                             <div className="icon">
                                                 {value.icon}
@@ -783,8 +695,7 @@ class Demo extends Component {
                             <div className="row">
                                 <div className="col-lg-8 offset-lg-2">
                                     <div className="section-title text-left pb--30">
-                                        <p>Check out our FAQ section to see if we can help.</p>
-                                        <h2 className="theme-gradient">Do you have any Question</h2>
+                                        <h2 className="theme-gradient">Câu hỏi thường gặp</h2>
                                     </div>
                                 </div>
                             </div>
@@ -795,43 +706,45 @@ class Demo extends Component {
                                             <AccordionItem >
                                                 <AccordionItemHeading>
                                                     <AccordionItemButton>
-                                                        What is tryDo ? How does it work?
+                                                        Tại sao bạn nên chọn WooWebsite?
                                                     </AccordionItemButton>
                                                 </AccordionItemHeading>
                                                 <AccordionItemPanel>
-                                                    <p>Welcome to TryDO React Creative Agency, React Portfolio and Corporate Multi Purpose Template Built With React JS. NO jQuery!. It works too much faster loading speed and you can works too much comfortability.Trydo create your website so much faster, use to use and Well Documented Codes for your customization.</p>
+                                                    <p>WooWebsite hướng tới chất lượng và chuyên nghiệp. Các website đều được thiết kế hiện đại và sử dụng theo công nghệ JAMStack mới nhất bao gồm  React và Nodejs. </p>
                                                 </AccordionItemPanel>
                                             </AccordionItem>
 
                                             <AccordionItem>
                                                 <AccordionItemHeading>
                                                     <AccordionItemButton>
-                                                        How can I run trydo react template?
+                                                        Thời gian để thiết kế một trang web là bao lâu?
                                                     </AccordionItemButton>
                                                 </AccordionItemHeading>
                                                 <AccordionItemPanel>
-                                                    <p>You can run trydo easily.
-                                                    First You'll need to have node and npm on your machine.
-                                                    So Please open your command prompt then check your node -v and npm -v Version.
-                                                    Goes To Your your command prompt: then
-                                                    First: <strong>npm install</strong></p>
-                                                    <p>At Last: <strong>npm run start</strong>. By the following way you can be run your project easily.</p>
+                                                    <p>Việc thiết kế website đến lúc hoàn thiện thông thường mất khoảng 5 - 30 ngày tùy theo chức năng, số lượng ngôn ngữ, tính phức tạp của trang web hay những yêu cầu đặc biệt từ phía khách hàng. - Ở giai đoạn tư vấn, tùy thuộc WooWebsite sẽ tiến hành từ 01 đến 03 buổi thảo luận với khách hàng để có thể hiểu đầy đủ và chính xác những yêu cầu và mục tiêu làm webcủa bạn. - Trong giai đoạn phát triển, sau khi nhận được đầy đủ các thông tin cần thiết, chúng tôi sẽ cung cấp cho bạn bản thiết kế về website sau 01 tuần và sẽ hoàn thành toàn bộ website sau tối đa là 03 tuần sau khi khách hàng đã đồng ý với bản thiết kế.</p>
                                                 </AccordionItemPanel>
                                             </AccordionItem>
 
                                             <AccordionItem>
                                                 <AccordionItemHeading>
                                                     <AccordionItemButton>
-                                                        How can I change my demo page instead of splash page?
+                                                        Chi phí thiết kế một website? web application?
                                                     </AccordionItemButton>
                                                 </AccordionItemHeading>
                                                 <AccordionItemPanel>
                                                     <div>
                                                         <p>
-                                                            You can be presenting any home page instead of splash page. http://localhost:3000 you can showing any page as your you are like. First you have to go index.js page then:
+                                                        <strong> Thiết kế Website: </strong>
+                                                        <ul>
+                                                            <li>
+                                                                Thiết kế theo yêu cầu giá giao động khoảng 7.8 triệu. 
+                                                            </li>
+                                                            <li>
+                                                                Theo gói thiết kế cơ bản theo mẫu dựng sẵn giá giao động khoảng 5.6 triệu
+                                                            </li>
+                                                        </ul>
                                                         </p>
-                                                        <p>First Step (replace your choose demo page): Example: import Demo form './home/MainDemo' Instead of './home/PortfolioLanding'</p>
-                                                        <p>Example: <a className="theme-gradient" href="https://www.dropbox.com/s/ysornwsweh836wi/change-home-page.png?dl=0">https://www.dropbox.com/s/ysornwsweh836wi/change-home-page.png?dl=0</a></p>
+                                                        <p><strong>Web Application</strong>: Tuỳ thuộc và nghiệp vụ, quy mô ứng dụng. Vui lòng liên hệ bộ phân tư vấn thiết kế của WooWebsite để nhận thêm thông tin</p>
                                                     </div>
                                                 </AccordionItemPanel>
                                             </AccordionItem>
@@ -839,12 +752,15 @@ class Demo extends Component {
                                             <AccordionItem>
                                                 <AccordionItemHeading>
                                                     <AccordionItemButton>
-                                                        How can I get the customer support?
+                                                        Bạn nhận được gì sau khi thiết kế web tại WooWebsite
                                                     </AccordionItemButton>
                                                 </AccordionItemHeading>
                                                 <AccordionItemPanel>
                                                     <p>
-                                                        After purchasing the product  need you any support you can be share with us with sending mail to <a className="theme-gradient" href="mailto:rainbowit10@gmail.com">rainbowit10@gmail.com</a>.
+                                                    Hệ thống web site chuyên nghiệp được thiết kế riêng đồng bộ với hệ thống nhận diện thương hiệu, đặc trưng ngành nghề của quý khách hàng. <br />
+                                                    Hệ thống quản trị backend chuyên nghiệp được phát triển trong nhiều năm, đơn giản chuyên nghiệp, mạnh mẽ để quản trị và phát triển nội dung mà không cần biết đến IT. <br />
+                                                    Bạn được nhận tài liệu hướng dẫn chi tiết quản trị, xây dựng content chuẩn SEO. Nhận được sự hỗ trợ trong suốt thời gian sử dụng website. <br />
+                                                    Website được bảo hành vĩnh viễn tại WooWebsite.
                                                     </p>
                                                 </AccordionItemPanel>
                                             </AccordionItem>
@@ -852,43 +768,16 @@ class Demo extends Component {
                                             <AccordionItem>
                                                 <AccordionItemHeading>
                                                     <AccordionItemButton>
-                                                        Can I get update regularly and For how long do I get updates?
+                                                        Chúng tôi có mất phí tư vấn không?
                                                     </AccordionItemButton>
                                                 </AccordionItemHeading>
                                                 <AccordionItemPanel>
                                                     <p>
-                                                        Yes, We will get update the Trydo. And you can get it any time. Next time we will comes with more feature.
-                                                        You can be get update for unlimited times. Our dedicated team works for update.
+                                                        Bạn sẽ được tư vấn từ khoá, tư vấn SEO website, tư vấn quảng cáo trên Google, Facebook, hoàn toàn miễn phí.
                                                     </p>
                                                 </AccordionItemPanel>
                                             </AccordionItem>
 
-                                            <AccordionItem>
-                                                <AccordionItemHeading>
-                                                    <AccordionItemButton>
-                                                        Can I change any component as I like?
-                                                    </AccordionItemButton>
-                                                </AccordionItemHeading>
-                                                <AccordionItemPanel>
-                                                    <p>
-                                                        Yes, You can change any component as you like. And By the way you can build your website which you are choose.
-                                                    </p>
-                                                </AccordionItemPanel>
-                                            </AccordionItem>
-
-                                            <AccordionItem>
-                                                <AccordionItemHeading>
-                                                    <AccordionItemButton>
-                                                        Can I build a complete project with this template?
-                                                    </AccordionItemButton>
-                                                </AccordionItemHeading>
-                                                <AccordionItemPanel>
-                                                    <p>
-                                                        Yes, Why not. You can build a project and complete website as you are like. More component are available include in this templete. And you can be use it following documentation.
-                                                    </p>
-                                                </AccordionItemPanel>
-                                            </AccordionItem>
-                                          
                                         </Accordion>
                                     </div>
                                 </div>
@@ -926,9 +815,11 @@ class Demo extends Component {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="inner text-center">
-                                        <span>Purchase The TryDo and Make Your Site super faster and easy.</span>
-                                        <h2>Let's go to Purchase</h2>
-                                        <a className="rn-button-style--2" href="https://themeforest.net/checkout/from_item/25457315?license=regular"><span>Purchase Now</span></a>
+                                        <span>Bạn thấy WooWebsite hoàn toàn phù hợp với quy mô và doanh nghiệp của mình.</span>
+                                        <h3 style={{color: '#ffffff'}}>Hãy liên hệ với chúng tôi ngay để được phục vụ</h3>
+                                        <h2>
+                                            <span style={{fontSize: '36px'}}> Hotline: </span>0934.378.644
+                                        </h2>
                                     </div>
                                 </div>
                             </div>
